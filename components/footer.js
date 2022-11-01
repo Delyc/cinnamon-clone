@@ -14,7 +14,7 @@ export default function Footer(){
             
         </section>
         <section className="bg-black px-6 py-32 flex flex-col gap-5">
-            <div className="w-1/2"><Image src={logo} /></div>
+            <div className="w-1/2"><Image src={logo} alt="logo" /></div>
             
             <h4 class="text-white font-bold">All software zero bullshit</h4>
              <div className="text-light-gray flex justify-between w-5/6 ">
@@ -88,8 +88,8 @@ export default function Footer(){
             </div>
 
             <div className="w-full mt-10 flex gap-5 flex-col items-center">
-            <Image className="w-3/4" src={footerImg} />
-            <Image className="w-4/5" src={reviewed} />
+            <Image className="w-3/4" alt="image" src={footerImg} />
+            <Image className="w-4/5" alt="image" src={reviewed} />
             </div>
 
            

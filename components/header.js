@@ -8,7 +8,7 @@ export default function Header(){
         <nav className='px-6  w-full flex justify-between items-center py-5'>
 
                <div className='w-3/5 '>
-               <Image src={logo} width="10px" height="30px"/>
+               <Image src={logo} alt="logo" width="10px" height="30px"/>
                </div>
                 
 

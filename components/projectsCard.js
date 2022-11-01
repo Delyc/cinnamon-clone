@@ -4,11 +4,11 @@ import Image from 'next/image'
 export default function ProjectsCard(){
     return(
         <>
-         <Image src={chat} className="mt-10" />
+         <Image src={chat} alt="chat" className="mt-10" />
 
         <div className='grid grid-cols-6 mt-10 gap-4'>
                 <div className='flex items-center'>
-                <Image src={ball} width="100%"/>
+                <Image src={ball} alt="ball" width="100%"/>
                 </div>
                 
                 <div className='col-span-5 '>

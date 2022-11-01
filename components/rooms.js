@@ -7,7 +7,7 @@ export default function Rooms(){
        <h3 className='text-black-primary font-bold'>Play&Go:  <br />   Tidy rooms, responsible kids </h3>
        <p className='text-gray-secondary leading-[33px]'>Play&Go is a revolutionary toy storage bag that encourages kids to tidy up after playing. Cinnamon created an e-commerce website and increased conversion rates thanks to a design overhaul that gives the website the look and feel of an online shop.</p>
         <div className='bg-yellow-300 mt-10'>
-        <Image src={yellowphone} width="10px"/>
+        <Image src={yellowphone} width="10px" alt="phone"/>
         </div>
         <p className='text-xs font-bold text-gray-primary'>PRODUCT DESIGN</p>
         <p className='text-xs font-bold text-gray-primary'>MOBILE DEVELOPMENT</p>

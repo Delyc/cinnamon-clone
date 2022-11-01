@@ -9,7 +9,7 @@ export default function Tabs(){
 find the most complete tabs and chords. Cinnamon offered a complete
 platform redesign including expansions and new features, focusing on keeping the user longer on the website.</p>
         <div className='bg-yellow-400 mt-10'>
-        <Image src={phoneyellow} width="10px"/>
+        <Image src={phoneyellow} width="10px" alt="phone"/>
         </div>
         <p className='text-xs font-bold text-gray-primary'>PRODUCT DESIGN</p>
         <p className='text-xs font-bold text-gray-primary'>MOBILE DEVELOPMENT</p>
