@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+
+  h1{
+    @apply text-[38px]
+  }
+
+  h2{
+    @apply text-[40px]
+  }
+  h3{
+    @apply text-[32px]
+  }
+  h4{
+    @apply text-[24px]
+  }
+  p{@apply text-[18px]}
+}
