@@ -7,7 +7,7 @@ export default function HeroSection() {
         </h1>
         <p className="text-light-gray xl:w-1/2">
           Extend your team with our high performing specialists or hire us to
-          shape your product from scratch. Either way, we'll get your product
+          shape your product from scratch. Either way, we{"'"}ll get your product
           off the ground and build a momentum for your success.
         </p>
       </section>

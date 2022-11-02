@@ -24,7 +24,7 @@ export default function Header(){
                 <li><Link href="#">Careers</Link></li>
                 <li><Link href="#">Blog</Link></li>
                  <div className='border  rounded-full w-10 h-10  flex justify-center items-center '>
-                    <Image src={play} width={20} height={20}/>
+                    <Image src={play} alt="play" width={20} height={20}/>
                  </div>
                 <Button text={"Contact Us"} styles={"hidden"}/>
 
