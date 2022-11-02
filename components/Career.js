@@ -7,7 +7,7 @@ export default function Career() {
       <section className="px-6 mt-20 bg-black-bg py-24 flex flex-col gap-6 xl:px-[10%] xl:flex xl:flex-row xl:justify-between xl:py-40">
         <div className="xl:w-1/2 flex flex-col gap-5 xl:gap-10">
           <h2 className="font-bold text-white w-3/5 xl:w-full">
-            We're growing
+            We{"'"}re growing
           </h2>
           <p className="text-light-gray xl:w-4/5">
             Jump on board with Cinnamon and get the privilege of working on
