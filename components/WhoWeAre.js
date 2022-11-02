@@ -33,7 +33,7 @@ export default function WhoWeAre(){
         </div>
         <div className='w-full  xl:flex xl:justify-end '>
             
-            <Image src={who}  />
+            <Image src={who}  alt="image"/>
         </div>
   </div>
         

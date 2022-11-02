@@ -10,13 +10,13 @@ export default function Agile() {
         </h2>
 
         <div className="py-14 w-3/4 xl:mt-10">
-          <Image src={agile} className="xl:absolute xl:bottom-0 xl:right-5  " />
+          <Image src={agile} alt="image" className="xl:absolute xl:bottom-0 xl:right-5  " />
         </div>
 
         <div className="xl:mr-44 ">
           <p className="w-3/5 xl:w-4/5">
             By hiring and managing talented people with skills specific to your
-            project, we build you a team that's accomplished, agile and scalable
+            project, we build you a team that{"'"}s accomplished, agile and scalable
             in both directions.
           </p>
           <Button text={"See How it Works"} styles={"mt-5"} />

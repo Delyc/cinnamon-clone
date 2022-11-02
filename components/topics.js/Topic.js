@@ -28,7 +28,7 @@ export default function Topic(){
            </section>
 
            <div className='flex gap-2 items-center mt-16'>
-           <Image src={next} />
+           <Image src={next} alt="image"/>
            <p><Link href="#" className='text-blue-light font-bold underline text-[18px]'>VIEW MORE BLOGS</Link></p>
            </div>
            </section>

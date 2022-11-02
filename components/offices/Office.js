@@ -31,8 +31,8 @@ export default function Office(){
                </div>
 
                <div className="flex  gap-16 mt-16">
-            <Image src={leftArrow} />
-            <Image src={rightArrow} />
+            <Image src={leftArrow} alt="image"/>
+            <Image src={rightArrow} alt="image"/>
            </div>
             
 
