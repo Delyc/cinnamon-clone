@@ -1,4 +1,4 @@
-import Button from "./Button"
+import Button from './Button'
 import Image from 'next/image'
 import Link from 'next/link'
 import reviewed from '../public/image/reviewed.png'
