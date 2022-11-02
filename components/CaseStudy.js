@@ -12,7 +12,7 @@ export default function CaseStudy() {
         <div className="flex xl:flex xl:flex-row xl:justify-between xl:items-center">
           <div className="flex flex-col gap-4 xl:w-3/5 xl:gap-10">
             <h3 className="font-bold text-black-primary">
-              They're consistent, and the communication is good.
+              They{"'"}re consistent, and the communication is good.
             </h3>
             <p>
               When I have a deadline, they would work extra hours on the weekend
@@ -21,12 +21,12 @@ export default function CaseStudy() {
             </p>
           </div>
           <div className="hidden xl:block xl:w-1/5">
-            <Image src={ping} />
+            <Image src={ping} alt="image" />
           </div>
         </div>
         <div className="xl:flex xl:flex-row xl:gap-5 xl:items-center ">
           <div className="w-1/3 mt-16 xl:w-[5rem] ">
-            <Image src={profile} />
+            <Image src={profile} alt="image"/>
           </div>
           <div className="flex flex-col gap-0  xl:mt-16">
             <h5 className="font-bold text-black-primary">Garin Toren,</h5>
@@ -35,12 +35,12 @@ export default function CaseStudy() {
         </div>
         <div className="xl:flex xl:justify-between">
           <div className="flex justify-between w-1/2 py-5 xl:w-1/6">
-            <Image src={leftArrow} />
-            <Image src={rightArrow} />
+            <Image src={leftArrow} alt="image"/>
+            <Image src={rightArrow} alt="image"/>
           </div>
 
           <div className="flex gap-2 items-center">
-            <Image src={next} />
+            <Image src={next} alt="image"/>
             <p>
               <Link
                 href="#"
