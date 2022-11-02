@@ -17,7 +17,7 @@ export default function CaseStudy() {
             <p>
               When I have a deadline, they would work extra hours on the weekend
               and after hours. Cinnamon gives the impression of being a smaller
-              team that's focused on customers.
+              team that{"'"}s focused on customers.
             </p>
           </div>
           <div className="hidden xl:block xl:w-1/5">

@@ -33,7 +33,7 @@ export default function Header(){
 
               
        
-            <Image src ={burger} className="xl:hidden"/>
+            <Image src ={burger} alt="image" className="xl:hidden"/>
          
 
             
