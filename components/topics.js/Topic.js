@@ -8,9 +8,9 @@ import Link from 'next/link'
 export default function Topic(){
     return(
         <>
-        <section className="px-6 mt-20 py-24 xl:px-[10%]    xl:gap-10">
+        <section className="px-6 mt-20 py-5 xl:px-[10%]    xl:gap-10">
             <h2 className="font-montBold text-black-primary xl:w-2/5 xl:mt-10">Stay in the loop on tech topics</h2>
-<section className='w-full flex flex-col xl:flex xl:flex-row gap-5'>
+<section className=' flex w-full  scrollbar-hide overflow-x-scroll gap-5 xl:flex xl:flex-row xl:gap-5'>
            {
            topics.map((topic, index) =>{
             return (

@@ -33,7 +33,7 @@ export default function Agile() {
           </p>
           <Button text={"See How it Works"} styles={"mt-5"} />
         </div>
-        <div className="py-14 w-3/4 xl:mt-20">
+        <div className="py-14 w-3/4 xl:mt-20 hidden xl:block">
           <Image src={agile} alt="image" className="xl:absolute xl:bottom-0 xl:right-5  " />
         </div>
 

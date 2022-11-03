@@ -6,14 +6,14 @@ export default function OfficeCard({ office }) {
     <>
 
     
-      <div className="flex flex-col  gap-5 mt-10 xl:gap-10 xl:w-[35rem] hover:text-blue-light">
+      <div className="flex flex-col w-[13rem] gap-5 mt-10 xl:gap-10 xl:w-[35rem] hover:text-blue-light">
         <div className="relative h-36 xl:h-96 xl:w-full">
           <Image src={imageUrl} alt="chat" fill="layout"  />
         </div>
 
-        <div className="flex gap-4  xl:gap-0 ">
+        <div className="flex gap-4 xl:ml-0 xl:gap-0 ">
           <svg
-            className=" mt-4 w-12  flex justify-start -ml-4 xl:mt-2"
+            className=" mt-4 w-12  flex justify-start ml-2 xl:-ml-4 xl:mt-2"
             stroke="currentColor"
             fill="none"
             stroke-width="2"
@@ -31,7 +31,7 @@ export default function OfficeCard({ office }) {
             <h5 className="col-span-5  text-black-primary font-montBold">
               {officeName}
             </h5>
-            <p className="col-start-2 col-span-5 text-gray-secondary leading-[33px] font-medium">
+            <p className="col-start-2 col-span-5 text-[16px] text-gray-secondary leading-[33px] font-medium">
               {descr}
             </p>
           </div>

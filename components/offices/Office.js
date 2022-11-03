@@ -30,7 +30,7 @@ export default function Office(){
                
                </div>
 
-               <div className="flex  gap-16 mt-16">
+               <div className="xl:flex hidden  gap-16 mt-16">
             <Image src={leftArrow} alt="image" className="cursor-pointer transition duration-300 ease-in-out hover:-translate-y-2"/>
             <Image src={rightArrow} alt="image" className="cursor-pointer transition duration-300 ease-in-out hover:-translate-y-2"/>
            </div>
