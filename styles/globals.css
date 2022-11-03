@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @font-face {
-  font-family: 'mont';
+  font-family: "mont";
   src: url("../public/Font/Mont-Regular.otf");
 }
 @font-face {
@@ -10,32 +10,46 @@
   src: url("../public/Font/Mont-Heavy.otf");
 }
 
-
 @font-face {
   font-family: "montBold";
   src: url("../public/Font/Mont-Bold.otf");
 }
 @layer base {
-  body{
-    @apply font-mont
+  body {
+    @apply font-mont;
   }
 
-  h1{
-    @apply text-[38px] xl:text-[80px]
+  h1 {
+    @apply text-[38px] xl:text-[80px];
   }
 
-  h2{
-    @apply text-[40px] xl:text-[54px]
+  h2 {
+    @apply text-[40px] xl:text-[54px];
   }
-  h3{
-    @apply text-[32px] xl:text-[40px]
+  h3 {
+    @apply text-[32px] xl:text-[40px];
   }
-  h4{
-    @apply text-[24px]
+  h4 {
+    @apply text-[24px];
   }
-  h5{
-    @apply text-[20px]
+  h5 {
+    @apply text-[20px];
   }
-  p{@apply text-[18px] xl:text-[20px]
+  p {
+    @apply text-[18px] xl:text-[20px];
   }
+}
+.btn {
+  position: relative;
+  display: inline-block;
+  background-image: url("../public/image/bg-img-1.png");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 0% 0%;
+
+  transition: background-size 0.4s, color 0s;
+}
+.btn:hover {
+  background-size: 140% 200%;
+  color: black;
 }
