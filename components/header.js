@@ -32,7 +32,7 @@ export default function Header() {
         className={`px-6  w-full flex justify-between xl:text-white-text items-center py-5 xl:px-[10%]  xl:bg-black-bg fixed z-50 ${
           pageScrolled
             ? "xl:text-black-primary bg-white xl:bg-white"
-            : "xl:bg-black-primary "
+            : "xl:bg-black-bg"
         }`}
       >
         <div className="w-3/5 xl:hidden">
