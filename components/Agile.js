@@ -10,8 +10,22 @@ export default function Agile() {
         </h2>
 
      
+ <div className="flex flex-col-reverse xl:hidden">
+ <div className="w-full xl:ml-40 ">
+          <p className="w-full text-[16px]  font-mont text-gray-primary xl:text-[17px] xl:w-full">
+            By hiring and managing talented people with skills specific to your
+            project, we build you a team that{"'"}s accomplished, agile and scalable
+            in both directions.
+          </p>
+          <Button text={"See How it Works"} styles={"mt-5 w-48 px-4 text-[17px]"} />
+        </div>
+        <div className="py-14 w-3/4 xl:mt-20">
+          <Image src={agile} alt="image" className="xl:absolute xl:bottom-0 xl:right-5  " />
+        </div>
 
-        <div className="w-full xl:ml-40 ">
+ </div>
+
+ <div className="w-full xl:ml-40 hidden xl:block">
           <p className="w-3/5  font-mont text-gray-primary xl:text-[17px] xl:w-full">
             By hiring and managing talented people with skills specific to your
             project, we build you a team that{"'"}s accomplished, agile and scalable
@@ -22,6 +36,9 @@ export default function Agile() {
         <div className="py-14 w-3/4 xl:mt-20">
           <Image src={agile} alt="image" className="xl:absolute xl:bottom-0 xl:right-5  " />
         </div>
+
+ 
+       
       </section>
     </>
   );

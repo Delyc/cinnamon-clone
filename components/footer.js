@@ -11,8 +11,11 @@ export default function Footer(){
         <section className="bg-gray-100 relative z-10 px-6 mt-20 flex flex-col items-center py-44 xl:px-[10%]">
           
     <div className="max-w-6xl m-auto  text-center ">
-      <h3 className="font-montBold text-center text-5xl leading-[4rem] mb-10">
+      <h3 className="hidden xl:block font-montBold text-center text-5xl leading-[4rem] mb-10">
         Have a project in mind? <br />
+        Let{"'"}s work together.
+      </h3>
+      <h3 className="xl:hidden  font-montBold text-center text-5xl leading-[4rem] mb-10">
         Let{"'"}s work together.
       </h3>
       <Button text="Contact us" />

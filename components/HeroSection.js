@@ -1,8 +1,8 @@
 export default function HeroSection() {
   return (
     <>
-      <section className="bg-black-bg px-6 flex flex-col gap-5 pt-10 pb-24 xl:pb-40  xl:px-[10%] xl:py-56">
-        <h1 className="font-montHeavy text-white-text xl:font-bold">
+      <section className="bg-black-bg px-6 flex flex-col gap-5 pt-10 pb-24  xl:pb-40  xl:px-[10%] xl:py-56">
+        <h1 className="font-montHeavy text-white-text mt-10 xl:mt-0 xl:font-bold">
           Results focused design & development agency.
         </h1>
         <p className="text-light-gray xl:w-1/2">

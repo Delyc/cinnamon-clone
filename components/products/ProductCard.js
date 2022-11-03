@@ -12,7 +12,7 @@ export default function ProductCard({product}){
         <div className='h-36 relative xl:h-[85vh]' style={{background}}>
                 <Image src={imageUrl} className="transition duration-700 ease-in-out hover:scale-105" alt="chat" fill={true} />
                 </div>
-                <div className=' xl:flex xl:flex-row gap-10 '>
+                <div className='flex flex-col gap-4 xl:flex xl:flex-row xl:gap-10 '>
 
 {
 
@@ -32,7 +32,7 @@ return (
 }
 </div>
             <h3 className='text-black-primary font-montBold xl:w-2/5'>{title}</h3>
-                <p className='text-gray-secondary leading-[33px] xl:w-3/5 font-mont xl:text-[16px]'>{description}</p>
+                <p className='text-gray-secondary text-[16px] leading-[33px] xl:w-3/5 font-mont xl:text-[16px]'>{description}</p>
                 
             
                

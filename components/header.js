@@ -2,6 +2,7 @@ import Image from 'next/image'
 import logo from '../public/image/logo.svg'
 import logowhite from '../public/image/logowhite.svg'
 import burger from '../public/image/burger.svg'
+import burgerWhite from '../public/image/burgerWhite.svg'
 import Link from 'next/link'
 import Button from './Button'
 import logoBlack from '../public/image/logoBlack.svg'
@@ -27,18 +28,15 @@ export default function Header(){
     };
     return (
         <>
-          {/* <div
-            className={`navigation w-full flex gap-8 px-20 py-4 items-center justify-around container mx-auto sticky top-0 z-10  ${
-                pageScrolled ? "text-dark bg-white" : "bg-black "
-            }`}
-        ></div> */}
+         
         <nav className={`px-6  w-full flex justify-between xl:text-white-text items-center py-5 xl:px-[10%]  xl:bg-black-bg fixed z-50 ${
-                pageScrolled ? "xl:text-black-primary xl:bg-white" : "xl:bg-black-primary "
+                pageScrolled ? "xl:text-black-primary bg-white xl:bg-white" : "xl:bg-black-primary "
             }`}>
 
                <div className='w-3/5 xl:hidden'>
-                
-                   <Image src={logoBlack} alt="logo" width="10px" height="30px"/>
+               {
+                    pageScrolled ?  <Image src={logoBlack} alt="logo" width="10px" height="30px"/> :  <Image src={logowhite} alt="logo" width="10px" height="30px"/>
+                }
                </div>
                <div className='w-1/6 hidden xl:block '>
 
@@ -71,8 +69,10 @@ export default function Header(){
                 
 
               
-       
-            <Image src ={burger} alt="image" className="xl:hidden"/>
+       {
+        pageScrolled ? <Image src ={burger} alt="image" className="xl:hidden"/>: <Image src ={burgerWhite} alt="image" className="xl:hidden"/>
+       }
+            
          
 
             

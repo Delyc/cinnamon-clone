@@ -9,7 +9,7 @@ export default function Career() {
           <h2 className="font-montBold text-white w-3/5 xl:w-full">
             We{"'"}re growing
           </h2>
-          <p className="text-light-gray xl:w-4/5 xl:text-[16px]">
+          <p className="text-light-gray w-full text-[16px] xl:w-4/5 xl:text-[16px]">
             Jump on board with Cinnamon and get the privilege of working on
             challenging projects for leading global companies! Make the world a
             better, more connected place.

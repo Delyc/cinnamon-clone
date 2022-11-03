@@ -15,12 +15,12 @@ export default function Cinnamon() {
      
 
         <div className="w-full xl:ml-40 ">
-          <p className="w-3/5  font-mont text-gray-primary xl:text-[17px] xl:w-full">
+          <p className="w-full text-[16px]  font-mont text-gray-primary xl:text-[17px] xl:w-full">
           Seize the unique opportunity to participate in a wide range of courses conducted by professionals with an impeccable reputation in the digital industry.
           </p>
-          <Button text={"See How it Works"} styles={"mt-5"} />
+          <Button text={"See How it Works"} styles={"mt-5 px-4"} />
         </div>
-        <div className="py-14 w-3/4 xl:mt-20">
+        <div className="py-14 w-3/4 xl:mt-20 hidden xl:block">
           <Image src={cin} alt="image" className="xl:absolute xl:bottom-0 xl:right-5  " />
         </div>
       </section>
