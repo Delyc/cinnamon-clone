@@ -10,7 +10,7 @@ export default function Office(){
         <>
         <section className="px-6  xl:px-0 xl:pl-[10%]">
             <h2 className="font-montBold xl:font-bold">Our offices</h2>
-            <div className=" flex  scrollbar-hide overflow-x-scroll gap-5 xl:overflow-x-scroll">
+            <div className=" flex  scrollbar-hide overflow-x-scroll gap-5 xl:overflow-x-scroll md:gap-10">
            {
            offices.map((office, index) =>{
             return (

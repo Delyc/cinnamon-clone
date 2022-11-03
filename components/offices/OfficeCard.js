@@ -6,8 +6,8 @@ export default function OfficeCard({ office }) {
     <>
 
     
-      <div className="flex flex-col w-[13rem] gap-5 mt-10 xl:gap-10 xl:w-[35rem] hover:text-blue-light">
-        <div className="relative h-36 xl:h-96 xl:w-full">
+      <div className="flex flex-col w-[13rem] gap-5 mt-10 xl:gap-10 xl:w-[35rem] md:w-[33rem] hover:text-blue-light">
+        <div className="relative h-36 xl:h-96 md:h-[70vh] xl:w-full md:w-full">
           <Image src={imageUrl} alt="chat" fill="layout"  />
         </div>
 

@@ -9,8 +9,8 @@ export default function CaseStudy() {
   return (
     <>
       <section className="px-6 py-16 flex flex-col gap-5 xl:px-[10%]">
-        <div className="flex xl:flex xl:flex-row xl:justify-between xl:items-center">
-          <div className="flex flex-col gap-4 xl:w-3/5 xl:gap-10">
+        <div className="flex xl:flex xl:flex-row xl:justify-between xl:items-center lg:flex lg:flex-row lg:justify-between lg:items-center">
+          <div className="flex flex-col gap-4 xl:w-3/5 xl:gap-10 lg:w-3/5">
             <h3 className="font-montBold text-black-primary">
               They{"'"}re consistent, and the communication is good.
             </h3>
@@ -20,21 +20,21 @@ export default function CaseStudy() {
               team that{"'"}s focused on customers.
             </p>
           </div>
-          <div className="hidden xl:block xl:w-1/6">
+          <div className="hidden xl:block xl:w-1/6 lg:block lg:w-1/6">
             <Image src={ping} alt="image" />
           </div>
         </div>
-        <div className="xl:flex xl:flex-row xl:gap-5 xl:items-center ">
-          <div className="w-1/3 mt-16 xl:w-[5rem] ">
+        <div className="xl:flex xl:flex-row xl:gap-5 xl:items-center lg:flex lg:flex-row lg:gap-10">
+          <div className="w-1/3 mt-16 xl:w-[5rem] lg:w-[5rem]">
             <Image src={profile} alt="image"/>
           </div>
-          <div className="flex flex-col gap-0  xl:mt-16">
+          <div className="flex flex-col gap-0  xl:mt-16 lg:mt-20">
             <h5 className="font-montBold text-black-primary">Garin Toren,</h5>
             <p className="text-black-primary mt-0 xl:text-[16px]">CEO, ping</p>
           </div>
         </div>
-        <div className="xl:flex xl:justify-between">
-          <div className="flex justify-between w-1/2 py-5 xl:w-[8rem]">
+        <div className="xl:flex xl:justify-between lg:flex lg:justify-between">
+          <div className="flex justify-between w-1/2 py-5 xl:w-[8rem] md:w-[8rem]">
             <Image src={leftArrow} alt="image"/>
             <Image src={rightArrow} alt="image"/>
           </div>
