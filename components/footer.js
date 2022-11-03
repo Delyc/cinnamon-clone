@@ -39,7 +39,7 @@ export default function Footer() {
               width="160"
               alt=""
             />
-             <h1 className="font-montBold text-[28px] w-4/5 mt-10 md:hiiden lg:hidden xl:hidden lg:text-3xl ">
+            <h1 className="font-montBold text-[28px] w-4/5 mt-10 md:hiiden lg:hidden xl:hidden lg:text-3xl ">
               All software, zero bullshit.
             </h1>
             <ul className="my-10 grid grid-cols-2  w-full flex-wrap xl:block lg:block">
@@ -52,10 +52,7 @@ export default function Footer() {
                 "Blog",
               ].map((v, i) => {
                 return (
-                  <p
-                    className="mb-4  text-[16px] text-light-gray"
-                    key={i}
-                  >
+                  <p className="mb-4  text-[16px] text-light-gray" key={i}>
                     {v}
                   </p>
                 );
@@ -120,12 +117,12 @@ export default function Footer() {
               </div>
               <div className="w-fit m-auto lg:m-0 flex flex-col items-center mt-16 xl:mt-0 gap-3">
                 <Image
-                  className="w-3/4 xl:w-4/5 xl:ml-auto xl:mr-7"
+                  className="w-3/4 xl:w-1/2 xl:ml-auto xl:mr-7"
                   alt="image"
                   src={footerImg}
                 />
                 <Image
-                  className="w-4/5 xl:w-full xl:ml-auto"
+                  className="w-4/5 xl:w-3/5 xl:ml-auto"
                   alt="image"
                   src={reviewed}
                 />
@@ -134,10 +131,14 @@ export default function Footer() {
           </div>
         </div>
         <div className=" mt-8  text-white ">
-          <div className="lg:flex-nowrap items-center flex flex-col-reverse justify-between">
-            <div className="flex w-full justify-between space-x-4 mt-5 xl:mt-0 ">
-              <p className="text-gray-primary font-montBold text-[16px]">© 2022 Cinnamon</p>
-              <p className="underline  lg:block text-gray-primary font-montBold text-[16px]">Privacy Policy</p>
+          <div className="lg:flex-nowrap items-center flex flex-col-reverse justify-between xl:flex xl:flex-row">
+            <div className="flex w-full xl:w-1/4 justify-between space-x-4 mt-5 xl:mt-0 ">
+              <p className="text-gray-primary font-montBold text-[16px]">
+                © 2022 Cinnamon
+              </p>
+              <p className="underline  lg:block text-gray-primary font-montBold text-[16px]">
+                Privacy Policy
+              </p>
             </div>
             <div className="xl:hidden border-b-2 border-[#666666]  w-full mt-5" />
 
