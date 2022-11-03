@@ -2,7 +2,7 @@ export const products =[
     {
         imageUrl:"/image/lapphone.webp",
         list:["PRODUCT DESIGN", "QUALITY ASSURANCE"],
-        background:"yellow",
+        background:"#91F1C3",
         title:"Corrily:  Optimize prices \n to maximize revenue",
     description:"Corrily tailors your prices and discounts to the needs of different user segments in order to increase your revenue. Cinnamon was tasked with creating a new visual identity for Corrily and incorporating a fresh, and stunning website redesign.",
 
@@ -10,7 +10,7 @@ export const products =[
 
     { 
     imageUrl:"/image/inyellow.png",
-    background:"yellow",
+    background:"#52247F",
     title:"Fiona: Engage & Decide",
     description:"Fiona is a fintech consumer-facing website that enables users to search for financial products, discover them, and receive personalized recommendations.",
    
@@ -25,7 +25,7 @@ export const products =[
     imageUrl:"/image/lapphone.webp",
     
     list:["PRODUCT DESIGN",  "WEB DEVELOPMENT", "QUALITY ASSURANCE"],
-    background:"yellow",
+    background:"#FFCB47",
 
     },
    

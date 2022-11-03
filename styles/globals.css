@@ -1,9 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+  font-family: 'mont';
+  src: url("../public/Font/Mont-Regular.otf");
+}
+@font-face {
+  font-family: "montHeavy";
+  src: url("../public/Font/Mont-Heavy.otf");
+}
 
 
+@font-face {
+  font-family: "montBold";
+  src: url("../public/Font/Mont-Bold.otf");
+}
 @layer base {
+  body{
+    @apply font-mont
+  }
 
   h1{
     @apply text-[38px] xl:text-[80px]

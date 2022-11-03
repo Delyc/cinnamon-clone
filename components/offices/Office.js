@@ -9,7 +9,7 @@ export default function Office(){
     return(
         <>
         <section className="px-6  xl:px-0 xl:pl-[10%]">
-            <h1 className="font-semibold xl:font-bold">Our offices</h1>
+            <h2 className="font-montBold xl:font-bold">Our offices</h2>
             <div className=" flex  scrollbar-hide overflow-x-scroll gap-5 xl:overflow-x-scroll">
            {
            offices.map((office, index) =>{
@@ -31,8 +31,8 @@ export default function Office(){
                </div>
 
                <div className="flex  gap-16 mt-16">
-            <Image src={leftArrow} alt="image"/>
-            <Image src={rightArrow} alt="image"/>
+            <Image src={leftArrow} alt="image" className="cursor-pointer transition duration-300 ease-in-out hover:-translate-y-2"/>
+            <Image src={rightArrow} alt="image" className="cursor-pointer transition duration-300 ease-in-out hover:-translate-y-2"/>
            </div>
             
 

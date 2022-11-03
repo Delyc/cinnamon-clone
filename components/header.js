@@ -4,29 +4,68 @@ import logowhite from '../public/image/logowhite.svg'
 import burger from '../public/image/burger.svg'
 import Link from 'next/link'
 import Button from './Button'
+import logoBlack from '../public/image/logoBlack.svg'
 import play from '../public/image/play.png'
+import playBlue from '../public/image/playBlue.png'
+import { useState, useEffect } from 'react'
 export default function Header(){
+    const [pageScrolled, setpageScrolled] = useState(false);
+
+    useEffect(() => {
+        window.addEventListener("scroll", handleScroll);
+
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
+
+    const handleScroll = () => {
+        if (window !== undefined) {
+            let windowHeight = window.scrollY;
+            windowHeight > 50 ? setpageScrolled(true) : setpageScrolled(false);
+        }
+    };
     return (
         <>
-        <nav className='px-6  w-full flex justify-between items-center py-5 xl:px-[10%]  xl:bg-black-bg'>
+          {/* <div
+            className={`navigation w-full flex gap-8 px-20 py-4 items-center justify-around container mx-auto sticky top-0 z-10  ${
+                pageScrolled ? "text-dark bg-white" : "bg-black "
+            }`}
+        ></div> */}
+        <nav className={`px-6  w-full flex justify-between xl:text-white-text items-center py-5 xl:px-[10%]  xl:bg-black-bg fixed z-50 ${
+                pageScrolled ? "xl:text-black-primary xl:bg-white" : "xl:bg-black-primary "
+            }`}>
 
                <div className='w-3/5 xl:hidden'>
-               <Image src={logo} alt="logo" width="10px" height="30px"/>
+                
+                   <Image src={logoBlack} alt="logo" width="10px" height="30px"/>
                </div>
                <div className='w-1/6 hidden xl:block '>
-               <Image src={logowhite} alt="logo" width="10px" height="30px"/>
+
+                {
+                    pageScrolled ?  <Image src={logoBlack} alt="logo" width="10px" height="30px"/> :  <Image src={logowhite} alt="logo" width="10px" height="30px"/>
+                }
+              
                </div>
 
-               <ul className='hidden xl:text-white-text xl:flex xl:gap-8 xl:items-center xl:font-bold'>
+               <ul className='hidden  xl:flex xl:gap-8 xl:items-center xl:font-bold'>
                 <li><Link href="#">Projects</Link></li>
                 <li><Link href="#">Services</Link></li>
                 <li><Link href="#">About Us</Link></li>
                 <li><Link href="#">Careers</Link></li>
                 <li><Link href="#">Blog</Link></li>
-                 <div className='border  rounded-full w-10 h-10  flex justify-center items-center '>
+
+                {
+                    pageScrolled ? <div className='border border-blue-light rounded-full w-10 h-10  flex justify-center items-center '>
+                    
+                    <Image src={playBlue} alt="play" width={20} height={20}/>
+                 </div> : <div className='border   rounded-full w-10 h-10  flex justify-center items-center '>
+                    
                     <Image src={play} alt="play" width={20} height={20}/>
                  </div>
-                <Button text={"Contact Us"} styles={"hidden"}/>
+                }
+                 
+                <Button text={"Contact Us"} styles={"hidden xl:block"}/>
 
                </ul>
                 

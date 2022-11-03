@@ -11,8 +11,8 @@ export default function ServiceCard({service}){
             
                 <Image src={imageUrl} alt="chat" width={40} height={40} className="mt-10 " />
             
-                <h4 className='text-white font-bold   '>{title}</h4>
-                <p className='text-light-gray leading-8  '>{description}</p>
+                <h4 className='text-white font-montBold   '>{title}</h4>
+                <p className='text-light-gray leading-8 xl:text-[16px] '>{description}</p>
 
                 
                

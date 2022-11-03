@@ -9,7 +9,7 @@ export default function Topic(){
     return(
         <>
         <section className="px-6 mt-20 py-24 xl:px-[10%]    xl:gap-10">
-            <h2 className="font-bold text-black-primary xl:w-2/5 xl:mt-10">Stay in the loop on tech topics</h2>
+            <h2 className="font-montBold text-black-primary xl:w-2/5 xl:mt-10">Stay in the loop on tech topics</h2>
 <section className='w-full flex flex-col xl:flex xl:flex-row gap-5'>
            {
            topics.map((topic, index) =>{
@@ -29,7 +29,7 @@ export default function Topic(){
 
            <div className='flex gap-2 items-center mt-16'>
            <Image src={next} alt="image"/>
-           <p><Link href="#" className='text-blue-light font-bold underline text-[18px]'>VIEW MORE BLOGS</Link></p>
+           <p><Link href="#" className='text-blue-light font-montBold underline text-[18px] xl:text-[17px]'>VIEW MORE BLOGS</Link></p>
            </div>
            </section>
                 

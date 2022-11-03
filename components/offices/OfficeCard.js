@@ -6,7 +6,7 @@ export default function OfficeCard({ office }) {
     <>
 
     
-      <div className="flex flex-col  gap-5 mt-10 xl:gap-10 xl:w-[35rem]">
+      <div className="flex flex-col  gap-5 mt-10 xl:gap-10 xl:w-[35rem] hover:text-blue-light">
         <div className="relative h-36 xl:h-96 xl:w-full">
           <Image src={imageUrl} alt="chat" fill="layout"  />
         </div>
@@ -28,7 +28,7 @@ export default function OfficeCard({ office }) {
             <circle cx="12" cy="10" r="3"></circle>
           </svg>
           <div className="">
-            <h5 className="col-span-5  text-black-primary font-bold">
+            <h5 className="col-span-5  text-black-primary font-montBold">
               {officeName}
             </h5>
             <p className="col-start-2 col-span-5 text-gray-secondary leading-[33px] font-medium">

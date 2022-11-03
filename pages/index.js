@@ -15,6 +15,7 @@ import WhoWeAre from '../components/WhoWeAre'
 import styles from '../styles/Home.module.css'
 import Office from '../components/offices/Office'
 import Topic from '../components/topics.js/Topic'
+import Cinnamon from '../components/Cinnamon'
 export default function Home() {
   return (
     <div >
@@ -24,7 +25,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head> */}
 
-     <section>
+     <section className='container'>
 
   
      <Header />
@@ -34,7 +35,7 @@ export default function Home() {
       <Agile />
       <CaseStudy />
       <WhoWeAre />
-     
+     <Cinnamon />
       <Career />
 
       

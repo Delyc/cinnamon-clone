@@ -8,7 +8,7 @@ export default function Product(){
     return(
         <>
         <section className="px-6 xl:px-[10%] ">
-            <h2 className="font-bold text-white">Our services</h2>
+            <h2 className="font-montBold text-white">Our services</h2>
            {
            products.map((product, index) =>{
             return (
