@@ -31,7 +31,7 @@ return (
 })
 }
 </div>
-            <h3 className='text-black-primary font-montBold xl:w-2/5 lg:w-2/5'>{title}</h3>
+            <h3 className='text-black-primary font-montBold xl:w-3/5 lg:w-2/5 whitespace-pre-line '>{title}</h3>
                 <p className='text-gray-secondary text-[16px] leading-[33px] xl:w-3/5 font-mont xl:text-[16px] lg:w-3/4'>{description}</p>
                 
             

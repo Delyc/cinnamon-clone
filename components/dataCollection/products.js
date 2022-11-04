@@ -11,7 +11,7 @@ export const products =[
     { 
     imageUrl:"/image/inyellow.png",
     background:"#52247F",
-    title:"Fiona: Engage & Decide",
+    title:"Fiona: Engage & \n Decide",
     description:"Fiona is a fintech consumer-facing website that enables users to search for financial products, discover them, and receive personalized recommendations.",
    
        
